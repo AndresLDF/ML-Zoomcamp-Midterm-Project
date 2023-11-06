@@ -46,13 +46,15 @@ To use the live server, follow these steps:
   "fineaggregate": 670.00,
   "age": 90.00
 }
-
+```
 To this example you will get a predicted strenght of 51.67 MPa.
 There could be some delay on the first request as the server goes idle after a time of not receiving any request
 
 ## Local Instalation
-Before proceeding you need to install Docker in your local device. Please go to https://www.docker.com/ and install the desktop version before proceeding.
+### Prerequisites
+Before proceeding you need to install Docker in your local device. Please go to  [Docker](https://www.docker.com/) and install the desktop version before proceeding.
 
+### Steps
 To install an run locally this server follow these steps:
 1. Download the Repository to your local machine
 2. Open your terminal
@@ -64,4 +66,4 @@ To install an run locally this server follow these steps:
 8. Set the url to https://cspredictor.onrender.com/predict
 9. set the JSON content with teh required information (JSON body example below)
 10. Send the request
-11. Check the response, it should be a number, it is the Compresion Strenght in MPa
+11. Check the response; it should be a number, which represents the Compression Strength in MPa.
