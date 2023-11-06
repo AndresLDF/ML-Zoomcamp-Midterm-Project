@@ -14,7 +14,7 @@ The strengh prediction for concrete at different ages is a multivariable (cement
 ## How to use it?
 To use the model, you can:
 - Use the live server (check the [Live Server](#live-server) section)
-- Download, install, and run it locally as a server (Check the [Local Installation](#local-installation) section)
+- Download, install, and run it locally as a server (Check the [Local Instalation](#local-instalation) section)
 
 In both cases, you need to make a POST request containing a JSON object with the following information regarding the concrete mixture:
 - Cement: kg in a m3 mixture
