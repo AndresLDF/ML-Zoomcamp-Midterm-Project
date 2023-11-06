@@ -9,7 +9,7 @@ The strengh prediction for concrete at different ages is a multivariable (cement
 * Regression Forest (RMSE: 4.74 MPa)
 * Gradient Boosting (RMSE: 4.43 MPa)
 
-*** The model selection process *** is an important section of this midterm project and the details *** can be found [here](https://github.com/AndresLDF/ML-Zoomcamp-Midterm-Project/blob/main/Notebooks/1_Midterm_Project_Data_Analysis_and_Model_Selection.ipynb). ***
+***The model selection process *** is an important section of this midterm project and the details*** can be found [here](https://github.com/AndresLDF/ML-Zoomcamp-Midterm-Project/blob/main/Notebooks/1_Midterm_Project_Data_Analysis_and_Model_Selection.ipynb). ***
 
 ## How to use it?
 To use the model, you can:
