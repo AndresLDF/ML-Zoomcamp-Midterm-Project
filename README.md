@@ -4,7 +4,7 @@
 This repository contains the files for a Compression Strength Predictor. This is part of the midterm project for the Machine Learning Zoomcamp and is not intended to be a final model for general purposes.
 
 ## How Does It Work?
-This prediction model is based on gradient boosted trees using the xgboost library. The model selection process is an important section of this midterm project, and the details can be found [here](#).
+This prediction model is based on gradient boosted trees using the xgboost library. The model selection process is an important section of this midterm project, and the details can be found [here](https://github.com/AndresLDF/ML-Zoomcamp-Midterm-Project/blob/main/Notebooks/1_Midterm_Project_Data_Analysis_and_Model_Selection.ipynb).
 
 To use the model, you can:
 - Use the live server (check the [Live Server](#live-server) section)
