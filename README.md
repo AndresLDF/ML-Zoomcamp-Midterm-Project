@@ -57,8 +57,8 @@ Before proceeding you need to install Docker in your local device. Please go to 
 ### Steps
 To install an run locally this server follow these steps:
 1. Download the Repository to your local machine
-2. Open your terminal
-3. Open the Server folder
+2. Open a terminal windows
+3. Open the **Server** folder
 4. typ the following command (be sure to include the final dot): docker build -t midterm .
 5. After the image is built, run the following command: docker run -it --rm -p 9696:9696 midterm
 6. Open a Rest API client like Thunder Client or Postman
