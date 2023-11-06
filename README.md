@@ -85,14 +85,15 @@ To install an run locally this server follow these steps:
 ```
 ## Web Service Deployment
 For the Web service deployment the following steps were taken:
-1. An account at https://render.com was created
-2. An accoun at https://www.docker.com/ was created
-3. In docker.com a repository was created
-4. In my local machine an docker image was created using the provided dockerfile and the commmand ``` docker build -t midterm . ```
-5. Then I have logged into the cloud repository from the terminal windows using the commands ```docker login -u andresldf ```
-6. The local doker image was tagged with the following command ```docker tag midterm:latest andresldf/cspredictor01:latest ```
-7. The image was pushed to the cloud repository using the following command: ``` docker push andresldf/cspredictor01:latest ```
-8. In the render server the option to stablish a web service was selected
-9. Then the option to use a docker image from the web
-10. The url https://hub.docker.com/repository/docker/andresldf/cspredictor01/general was ussed for the image url
-11. The Web Service was deployed
+
+1. An account was created on https://render.com.
+2. An account was created on https://www.docker.com/.
+3. A repository was created on docker.com.
+4. On my local machine, a Docker image was created using the provided Dockerfile and the command ``` docker build -t midterm . ```.
+5. Then, I logged into the cloud repository from the terminal window using the command ``` docker login -u andresldf ```.
+6. The local Docker image was tagged with the following command: ``` docker tag midterm:latest andresldf/cspredictor01:latest ```.
+7. The image was pushed to the cloud repository using the command: ``` docker push andresldf/cspredictor01:latest ``` .
+8. On the Render server, the option to establish a web service was selected.
+9. Then, the option to use a Docker image from the web was chosen.
+10. The URL https://hub.docker.com/repository/docker/andresldf/cspredictor01/general was used as the image URL.
+11. The web service was deployed at https://cspredictor.onrender.com.
