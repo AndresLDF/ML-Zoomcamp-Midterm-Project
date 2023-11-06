@@ -56,7 +56,7 @@ To use the live server, follow these steps:
 To this example you will get a predicted strenght of 51.67 MPa.
 There could be some delay on the first request as the server goes idle after a time of not receiving any request
 
-For information on how the model was deployed to the web server, please check the section "Web Service Deployment"
+For information on how the model was deployed to the web server, please check the section [Web Service Deployment](#web-service-deployment)
 
 ## Local Instalation
 ### Prerequisites
