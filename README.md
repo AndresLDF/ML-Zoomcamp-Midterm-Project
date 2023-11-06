@@ -3,9 +3,15 @@
 ## Welcome
 This repository contains the files for a Compression Strength Predictor. This is part of the midterm project for the Machine Learning Zoomcamp and is not intended to be a final model for general purposes.
 
-## How Does It Work?
-This prediction model is based on gradient boosted trees using the xgboost library. *** The model selection process *** is an important section of this midterm project and the details *** can be found [here](https://github.com/AndresLDF/ML-Zoomcamp-Midterm-Project/blob/main/Notebooks/1_Midterm_Project_Data_Analysis_and_Model_Selection.ipynb). ***
+The strengh prediction for concrete at different ages is a multivariable (cement content, alternative bindings content, water content, granulometry, etc.) non linear problem, already different formulas has been propossed but the results are not always sastifactories. In this project a model based on gradient boosted trees using the xgboost library was selected for the prediction after evaluating the following methods usnig the Root Mean Squared Error (RMSE) as the score for selection (the lower scores are the most desirable ones):
+* Linear Regression with features engineering (RMSE: 7.29 MPa)
+* Regression Tree (RMSE: 5.92 MPa)
+* Regression Forest (RMSE: 4.74 MPa)
+* Gradient Boosting (RMSE: 4.43 MPa)
 
+*** The model selection process *** is an important section of this midterm project and the details *** can be found [here](https://github.com/AndresLDF/ML-Zoomcamp-Midterm-Project/blob/main/Notebooks/1_Midterm_Project_Data_Analysis_and_Model_Selection.ipynb). ***
+
+## How to use it?
 To use the model, you can:
 - Use the live server (check the [Live Server](#live-server) section)
 - Download, install, and run it locally as a server (Check the [Local Installation](#local-installation) section)
