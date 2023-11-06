@@ -3,7 +3,7 @@
 ## Welcome
 This repository contains the files for a Compression Strength Predictor. This is part of the midterm project for the Machine Learning Zoomcamp and is not intended to be a final model for general purposes.
 
-The strengh prediction for concrete at different ages is a multivariable (cement content, alternative bindings content, water content, granulometry, etc.) non linear problem, already different formulas has been propossed but the results are not always sastifactories. In this project a model based on gradient boosted trees using the xgboost library was selected for the prediction after evaluating the following methods usnig the Root Mean Squared Error (RMSE) as the score for selection (the lower scores are the most desirable ones):
+The strength prediction for concrete at different ages is a multivariable problem involving factors such as cement content, alternative binding content, water content, granulometry, etc. It is a nonlinear problem, and various formulas have been proposed. However, the results are not always satisfactory. In this project, a model based on gradient boosted trees, using the xgboost library, was selected for prediction. The selection process involved evaluating different methods using the Root Mean Squared Error (RMSE) as the scoring metric. Lower RMSE scores are more desirable):
 * Linear Regression with features engineering (RMSE: 7.29 MPa)
 * Regression Tree (RMSE: 5.92 MPa)
 * Regression Forest (RMSE: 4.74 MPa)
