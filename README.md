@@ -67,3 +67,18 @@ To install an run locally this server follow these steps:
 9. set the JSON content with teh required information (JSON body example below)
 10. Send the request
 11. Check the response; it should be a number, which represents the Compression Strength in MPa.
+
+**JSON File Example:**
+```json
+{
+  "cement": 380.00,
+  "slag": 0.00,
+  "flyash": 0.00,
+  "water": 228.00,
+  "superplasticizer": 0.00,
+  "coarseaggregate": 932.00,
+  "fineaggregate": 670.00,
+  "age": 90.00
+}
+```
+To thi
