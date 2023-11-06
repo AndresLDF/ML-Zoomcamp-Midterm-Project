@@ -50,6 +50,8 @@ To use the live server, follow these steps:
 To this example you will get a predicted strenght of 51.67 MPa.
 There could be some delay on the first request as the server goes idle after a time of not receiving any request
 
+For information on how the model was deployed to the web server, please check the section "Web Service Deployment"
+
 ## Local Instalation
 ### Prerequisites
 Before proceeding you need to install Docker in your local device. Please go to  [Docker](https://www.docker.com/) and install the desktop version before proceeding.
@@ -81,3 +83,16 @@ To install an run locally this server follow these steps:
   "age": 90.00
 }
 ```
+## Web Service Deployment
+For the Web service deployment the following steps were taken:
+1. An account at https://render.com was created
+2. An accoun at https://www.docker.com/ was created
+3. In docker.com a repository was created
+4. In my local machine an docker image was created using the provided dockerfile and the commmand ``` docker build -t midterm . ```
+5. Then I have logged into the cloud repository from the terminal windows using the commands ```docker login -u andresldf ```
+6. The local doker image was tagged with the following command ```docker tag midterm:latest andresldf/cspredictor01:latest ```
+7. The image was pushed to the cloud repository using the following command: ``` docker push andresldf/cspredictor01:latest ```
+8. In the render server the option to stablish a web service was selected
+9. Then the option to use a docker image from the web
+10. The url https://hub.docker.com/repository/docker/andresldf/cspredictor01/general was ussed for the image url
+11. The Web Service was deployed
